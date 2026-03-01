@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princess Ariana | Personal Life</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffe6f0, #f0f8ff);
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        /* HEADER */
+        .page-title {
+            text-align: center;
+            padding: 30px 0;
+            font-size: 2.5rem;
+            color: #ff69b4;
+            font-weight: 700;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 0;
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            color: #ff1493;
+        }
+
+        .hero-subtitle {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .hero-buttons .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-primary {
+            background: #ff69b4;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #ff1493;
+        }
+
+        .btn-secondary {
+            background: #ffffff;
+            border: 2px solid #ff69b4;
+            color: #ff69b4;
+        }
+
+        .btn-secondary:hover {
+            background: #ff69b4;
+            color: white;
+        }
+
+        .hero-image img {
+            width: 250px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        /* SKILLS SECTION */
+        .skills-preview {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2rem;
+            color: #ff69b4;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: white;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .skill-card i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #ff69b4;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1 class="page-title">My Personal Life 💖</h1>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h2 class="hero-title">
+                Hi, I'm <span class="highlight">Princess Ariana D. Donato</span>
+            </h2>
+            <p class="hero-subtitle">
+                I consider myself a student who is constantly learning, growing,
+                and improving — even though studying can be difficult at times.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">View My Work</a>
+                <a href="about.html" class="btn btn-secondary">Learn More About Me</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/ariana.jpg" alt="Ariana Photo">
+        </div>
+    </div>
+</section>
+
+<section class="skills-preview">
+    <div class="container">
+        <h2 class="section-title">What I Do ✨</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <i class="fas fa-file-word"></i>
+                <h3>Word Documents</h3>
+                <p>Professional reports and formatted documents.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-file-powerpoint"></i>
+                <h3>PowerPoint</h3>
+                <p>Engaging presentations with modern designs.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-file-excel"></i>
+                <h3>Excel</h3>
+                <p>Spreadsheets and data organization.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Responsive and cute websites 💻</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2025 Princess Ariana. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
